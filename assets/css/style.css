@@ -103,6 +103,7 @@ nav ul li {
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
+    transform: transform 0.5s;
 }
 .small-container .col-4 img{
     width: 100%;
@@ -126,4 +127,36 @@ nav ul li {
     top: 2rem;
     transform: translateX(-50%);
 
+}
+.small-container .col-4 h4{
+    color: #555;
+}
+.small-container .col-4 p{
+    color: #555;
+    font-size: 0.8rem;
+}
+.small-container .col-4 .ratting 
+{
+    color:#ff523b ;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+
+}
+.offer{
+    background:radial-gradient(#fff , #ffd6df) ;
+    margin-top: 80px;
+    padding: 30px;
+    
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+   
+    color: #555;
+}
+.ratting 
+{
+    color:#ff523b ;
 }
