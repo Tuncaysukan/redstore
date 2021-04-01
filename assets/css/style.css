@@ -107,3 +107,23 @@ nav ul li {
 .small-container .col-4 img{
     width: 100%;
 }
+.small-container .title
+{
+    text-align: center;
+    line-height: 1.4rem;
+    position: relative;
+    color: #555;
+    margin:0 auto 2rem
+}
+.small-container .title::after{
+    content: '';
+    background: #ff523b;
+    width: 10rem;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+
+}
