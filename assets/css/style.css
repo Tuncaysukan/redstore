@@ -160,3 +160,253 @@ small{
 {
     color:#ff523b ;
 }
+/** Testimonial **/
+.testimonial{
+    padding: 4rem;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 2rem  1rem ;
+    box-shadow: 0 0  20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa-quote-left {
+    font-size: 1.5rem;
+    color: #ff523b;
+}
+.col-3 p{
+    font-size: 1.2rem;
+  color: #777;
+    margin: 1rem 0 ;
+}
+.testimonial .col-3 h3{
+    font-weight: 60px;
+    color: #555;
+    font-size: 1.2rem;
+}
+/**brands*/
+.brands{
+    margin: 50px auto;
+}
+.brands .col-5{
+    width: 160px;
+}
+.brands .col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.brands .col-5 img:hover{
+    filter: grayscale(0);
+}
+/**Footer*/
+.footer
+{
+background: #000;
+color: #8a8a8a8a;
+font-size: 14px;
+padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center ;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+
+}
+.footer-col-3 , .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr {
+    border: none;
+background: #b5b5b5;
+height: 1px;
+margin: 20px 0;
+}
+.footer .copyright{
+    text-align: center;
+    color: #ff523b;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* Media Query Menü***/
+
+@media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.9s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/**Products All**/
+
+.row-2
+{
+    justify-content: space-between;
+    margin:  100px auto 30px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 8px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn
+{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 2px solid #ff523b;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.page-btn span:hover{
+    display: inline-block;
+    border: 2px solid #fff;
+    background: #ff523b;
+    color: #fff;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+/***Single  Product*****/
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2{ padding: 1.5rem;}
+.single-product .col-2 img{padding: 0;}
+.single-product h4{
+    margin: 1.5rem 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+.single-product select{
+    display: block;
+    padding: 1rem;
+    margin: 0.1rem;
+}
+.single-product input{
+    width: 3rem;
+    height: 2rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    border: 1px solid #ff523b;
+}
+input:focus{outline: none;}
+
+.single-product .fa-indent{
+    color: #ff523b;
+    margin-left: 1rem;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.small-img-col{
+    flex-basis: 33%;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**media qouery 600**/
+
+@media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+flex-basis: 100%;
+
+    }
+}
