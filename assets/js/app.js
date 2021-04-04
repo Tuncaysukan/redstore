@@ -27,3 +27,4 @@ smallImg[2].onclick=function(){
 smallImg[3].onclick=function(){
     product.src=smallImg[3].src;
 }
+
