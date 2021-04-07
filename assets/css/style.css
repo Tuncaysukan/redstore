@@ -368,11 +368,9 @@ input:focus{outline: none;}
     color: #ff523b;
     margin-left: 1rem;
 }
-
 .small-img-row{
     display: flex;
     justify-content: space-between;
-
     
 }
 .small-img-col{
